@@ -4,16 +4,6 @@ A content-based movie recommender. Search a large film catalog, hover a poster f
 
 About 40,000 films are included: each one has a poster, a real plot summary, and at least 25 ratings. Cast and director names are attached wherever IMDb lists them.
 
-## Run it
-
-```bash
-npm install
-npm run dev
-```
-
-Open [http://127.0.0.1:3847](http://127.0.0.1:3847).
-
-The catalog is already built and stored in `data/`. You do not need an API key.
 
 ## How recommendations work
 
