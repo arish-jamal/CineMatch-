@@ -1,0 +1,25 @@
+{
+  "algorithm": "Weighted TF-IDF cosine similarity",
+  "features": [
+    "overview",
+    "genres",
+    "keywords",
+    "director",
+    "top cast"
+  ],
+  "weights": {
+    "overview": 0.52,
+    "metadata": 0.2,
+    "director": 0.18,
+    "cast": 0.1
+  },
+  "maxFeatures": 25000,
+  "ngramRange": [
+    1,
+    2
+  ],
+  "neighbors": 12,
+  "movieCount": 39968,
+  "withCast": 38125,
+  "minVotes": 25
+}
